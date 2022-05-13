@@ -4,7 +4,6 @@ pipeline {
     }
     tools {
         maven 'maven'
-        dockerTool 'myDocker'
     }
     agent any
     stages {
